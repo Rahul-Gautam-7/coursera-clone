@@ -4,8 +4,11 @@ import Card from './Card';
 function Bod(props) {
 
     const users= [
-        { name:'rahul', id:12},
-        { name: 'gautam', id:2},
+        { name:'Data Analyst '},
+        { name:'Data Analyst '},
+        { name:'Data Analyst '},
+        { name:'Data Analyst '}
+     
         
     ]
     return (
@@ -38,11 +41,10 @@ function Bod(props) {
         {
             users.map(function(day)
             {
-                return  <div  style={{display:'inline'}}  >
-                    <div  style={{width: '950px'}}>
+                return  <div  style={{  }} className='h-3/6 w-3/6 '>
                     <Card id={day.id} name={day.name} />
                     </div>
-                    </div>
+                    
             })
 
         }
