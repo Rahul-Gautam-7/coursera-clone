@@ -5,7 +5,7 @@ function Bod(props) {
 
     const users= [
         { name:'Data Analyst '},
-        { name:'Data Analyst '},
+        { name:'Project Manager '},
         { name:'Data Analyst '},
         { name:'Data Analyst '}
      
@@ -38,18 +38,18 @@ function Bod(props) {
             <Card data={item} />
              )
         } */}
+
+        <div className='grid grid-cols-3 '>
         {
             users.map(function(day)
             {
-                return  <div  style={{  }} className='h-3/6 w-3/6 '>
-                    <Card id={day.id} name={day.name} />
-                    </div>
+                return <Card  name={day.name} />
+                    
                     
             })
 
         }
-       
-        
+       </div>
         
         </>
     );

@@ -4,10 +4,8 @@ function Card(props) {
    
    
     
-    return (
-      
+    return (    
        <>
-       
     <div className="block rounded-lg bg-white shadow-secondary-1  dark:bg-surface-dark h-4/6 w-4/6 m-2 ">
   <div
     className="relative overflow-hidden bg-cover bg-no-repeat"
@@ -51,10 +49,8 @@ function Card(props) {
     </a>
     </div>
   </div>
-</div>
-
-
-       </>
+    </div>
+    </>
     );
 }
 
