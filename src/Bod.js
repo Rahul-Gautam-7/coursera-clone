@@ -45,8 +45,7 @@ function Bod(props) {
         {
             users.map(function(day)
             {
-                return <Card   name={day.name} />
-                    
+                return <Card   name={day.name} />   
                     
             })
 
