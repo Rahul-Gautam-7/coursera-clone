@@ -6,7 +6,7 @@ function Card(props) {
     
     return (    
        <>
-    <div className="block rounded-lg bg-white shadow-secondary-1  dark:bg-surface-dark h-4/6 w-4/6 m-2 ">
+    <div className="block rounded-lg bg-red-200 shadow-secondary-1 border-2 border-stone-950 dark:bg-surface-dark h-4/6 w-4/6 m-2 ml-16 mr-0 ">
   <div
     className="relative overflow-hidden bg-cover bg-no-repeat"
     data-twe-ripple-init=""
@@ -33,7 +33,8 @@ function Card(props) {
         <p className='bg-gray-200 m-1 p-1'>Working with numbers</p>
       </p>  
     </p>
-    <div className='my-10'>
+    
+    <div className='my-10 '>
     <a href='' className="bg-orange-500 text-white text-4 rounded p-[10px] hover:bg-blue-300 hover:text-black duration-700">
       Google Data Analytics
     </a>
