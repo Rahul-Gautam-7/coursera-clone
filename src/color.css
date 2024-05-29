@@ -1,0 +1,17 @@
+.color{
+    background-color: gray;
+
+}
+.color:hover{
+    background-color: rgb(16, 16, 95);
+    border-color:rgb(16, 16, 95); ;
+}
+
+.colors{
+    background-color: white;
+}
+.colors:hover{
+    background-color: rgb(210, 210, 228);
+    border-color:  rgb(16, 16, 95);
+    color:  rgb(16, 16, 95);;
+}
