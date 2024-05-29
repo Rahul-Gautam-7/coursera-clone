@@ -1,7 +1,7 @@
 import Head from './Head';
 import Bod from './Bod';
 import Card from './Card';
-import Lg from './Lg';
+
 import './App.css';
 
 function App() {
