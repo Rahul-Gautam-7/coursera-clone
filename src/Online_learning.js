@@ -16,8 +16,8 @@ function Online_learning() {
   return (
     <>
     <div className='container'>
-      <div className='row'>
-        <div className='grid grid-cols-3 my-16  flex flex-row '>
+      <div className='row flex'>
+        <div className='grid grid-cols-3 my-16  flex-auto '>
          {data.map(function(s)
             {
               return <Institute />
